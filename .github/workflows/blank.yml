@@ -5,10 +5,10 @@ on:
     inputs:
       name:
         type: choice
-        description: Who to greet
+        description: Tenant
         options: 
-        - monalisa
-        - cschleiden
+        - Forge
+        - Development
       message:
         required: true
       use-emoji:
