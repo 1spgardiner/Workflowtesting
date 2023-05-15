@@ -11,7 +11,10 @@ on:
         - Development
       environment:
         description: 'Environment to run tests against'
-        type: environment
+        type: choice
+        options:
+        - PROD
+        - DEV
         required: true
 
 jobs:
