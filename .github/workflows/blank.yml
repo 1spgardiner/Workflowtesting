@@ -9,11 +9,6 @@ on:
         options: 
         - Forge
         - Development
-      message:
-        required: true
-      use-emoji:
-        type: boolean
-        description: Include  emojis
       environment:
         description: 'Environment to run tests against'
         type: environment
